@@ -1,0 +1,133 @@
+#navmarker1 {
+    background-color: transparent;
+    right: 10px;
+}
+
+#navmarker3 {
+    background-color: #00ffff;
+}
+
+.main {
+    background-color: transparent;
+    border-color: transparent;
+    height: 600px;
+}
+
+#cpp, #haskell, #java {
+    width: 33.3333%;
+    height: 155px;
+    float: left;
+}
+
+#html, #css {
+    width: 50%;
+    height: 155px;
+    float: left;
+}
+
+.main div div {
+    background-color: rgba(40, 40, 40, 0.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#cpp div {
+    background-image: url('../img/cpp.png');
+    background-size: 70%;
+}
+
+#haskell div {
+    background-image: url('../img/haskell.svg');
+    background-size: 75%;
+}
+
+#java div {
+    background-image: url('../img/java.png');
+    background-size: 85%;
+}
+
+#html div {
+    background-image: url('../img/html.png');
+    background-size: 85%;
+}
+
+#css div {
+    background-image: url('../img/css.svg');
+    background-size: 60%;
+}
+
+.main div h2 {
+    color: #00ffff;
+    text-align: center;
+    height: 30px;
+    float: left;
+    text-shadow: 2px 2px black;
+}
+
+#labels1 h2 {
+    width: 33.33333%;
+
+}
+
+#labels2 h2 {
+    width: 50%;
+}
+
+hr {
+    clear: both;
+    width: 95%;
+    height: 2px;
+    background-color: white;
+    border-color: white;
+}
+
+#fresnostate, #geekwise, #caltrans {
+    height: 300px;
+    width: 29.3333%;
+    float: left;
+    background-color: rgba(204, 255, 255, .15);
+    border-radius: 5px;
+}
+
+#fresnostate, #caltrans {
+    margin: 10px 3%;
+    position: relative;
+}
+
+#geekwise {
+    margin-top: 10px;
+    position: relative;
+}
+
+#fresnostate div img, #geekwise div img, #caltrans div img {
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+#fresnostate div img {
+    top: 50px;
+}
+
+#geekwise div img {
+    top: -90px;
+}
+
+#caltrans div img {
+    top: 20px;
+}
+
+#fresnostate p, #geekwise p, #caltrans p {
+    position: absolute;
+    top: 80px;
+    padding: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+
+

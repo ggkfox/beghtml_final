@@ -1,0 +1,184 @@
+html {
+	background-color: #222;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+}
+
+.body {
+	position: relative;
+	background-image: url('../img/homeimg.jpg');
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: rgba(40, 40, 40, 0.8);
+	height: 50px;
+	position: relative;
+}
+
+header h1 {
+	position: relative;
+	top: 4px;
+	left: 20px;
+	margin: 0;
+	color: #ccff99;
+}
+
+nav ul {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	margin: 0;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px 0 20px;
+	font-size: 25px;
+	color: #ccff99;
+}
+
+#navmarker1, #navmarker2, #navmarker3, #navmarker4 {
+	position: absolute;
+	height: 3px;
+	bottom: -3px;
+	right: 20px;
+}
+
+#navmarker1 {
+	width: 365px;
+	left: 20px;
+	background-color: #00ffff;
+}
+
+#navmarker2 {
+	width: 90px;
+	right: 294px;
+	background-color: transparent;
+}
+
+#navmarker3 {
+	width: 107px;
+	right: 150px;
+	background-color: transparent;
+}
+
+#navmarker4 {
+	width: 90px;
+	right: 24px;
+	background-color: transparent;
+}
+
+header nav ul li:hover {
+	border-bottom: 1px dotted #00ffff;
+}
+
+/*body css*/
+
+.socialbox, .main {
+	background-color: rgba(40, 40, 40, 0.8);
+	border: 2px dotted rgba(20, 20, 20, 0.7);
+}
+
+.socialbox {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.fa {
+	position: relative;
+	top: 6px;
+	left: 9px;
+	color: #00ffff;
+}
+
+#sidebar {
+	width: 60%;
+	height: 60px;
+	margin-top: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#sidebar>div {
+	width: 20%;
+	float: left;
+}
+
+.main {
+	border-radius: 10px;
+	height: 550px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 80px;
+}
+
+.subtitle {
+	color: orange;
+	width: 435px;
+	text-align: center;
+	padding: 20px 0px 10px 0px;
+	border-bottom: 2px solid orange;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.main p {
+	color: #d9d9d9;
+}
+
+.main p {
+	padding: 20px 100px;
+}
+
+/*footer*/
+
+footer {
+	background-color: #222;
+	margin-top: 40px;
+	height:200px;
+	width: 100%;
+	clear: both;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+}
+
+footer div {
+	width: 33.33333%;
+	height: 141px;
+	float: left;
+}
+
+footer div p {
+	margin: 30px 20%;
+	font-size: 15px;
+}
+
+footer div h4 {
+	color: #ccff99;
+	width: auto;
+	text-align: center;
+	text-decoration: underline;
+}
+
+footer div ul li {
+	color: white;
+	margin: 0 20%;
+}
